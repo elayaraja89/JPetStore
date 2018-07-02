@@ -1,2 +1,2 @@
-# JPetStore123
+# JPetStore
 https://github.com/mafrosis/scripts
