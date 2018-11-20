@@ -1,6 +1,6 @@
 <project name="JPetStore" default="all" basedir=".">
 
-  
+  <!-- test -->
   <property name="web" value="web"/>
   <property name="src" value="src"/>
   <property name="test" value="test"/>
@@ -152,7 +152,7 @@
       <fileset dir="${web}"/>
     </copy>
   </target>
-
+<
   <target name="war" depends="assemble">
     <jar jarfile="${warfile}">
       <fileset dir="${webapp}">
